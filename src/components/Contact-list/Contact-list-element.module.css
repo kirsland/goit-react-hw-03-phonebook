@@ -1,0 +1,17 @@
+.deleleButton {
+  width: 32;
+  height: 32px;
+  margin: 0 0 10px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: aqua;
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deleleButton:hover,
+.deleleButton:focus {
+  background: #04cece;
+}

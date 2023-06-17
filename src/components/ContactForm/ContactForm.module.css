@@ -1,0 +1,45 @@
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 360px;
+  height: 32px;
+  margin: 0 0 10px 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.input:hover,
+.input:focus {
+  background: #f2f5f5;
+  border: 2px solid aqua;
+  outline: none;
+}
+
+.button {
+  width: 360px;
+  height: 32px;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: aqua;
+}
+
+.button:hover,
+.button:focus {
+  background: #04cece;
+}
