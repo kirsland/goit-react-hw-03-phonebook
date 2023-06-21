@@ -20,7 +20,7 @@ class ContactForm extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    this.props.onSubmit(this.state); // Тут ми зберігаємо пропси для предачі в батьківський модуль.
+    this.props.onSubmit(this.state);
     this.reset();
   };
 
